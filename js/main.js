@@ -12,7 +12,7 @@ var ninetyEl=[]
 formEl.addEventListener('submit',evt=>{
     evt.preventDefault()
     var inputElValue=inputEl.value ;
-    if(inputElValue=" "){
+    if(inputElValue.length == 0){
         return  the_resultEl.textContent="To'ldring katakdi"
     }
     if(inputElValue%2==0){
@@ -29,6 +29,7 @@ formEl.addEventListener('submit',evt=>{
         the_resultEl.textContent="Bu toq son"
         return
      }
+    
 })
 console.log(couple_sonEL);
 console.log(ninetyEl);
