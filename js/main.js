@@ -12,6 +12,9 @@ var ninetyEl=[]
 formEl.addEventListener('submit',evt=>{
     evt.preventDefault()
     var inputElValue=inputEl.value ;
+    if(inputElValue=" "){
+        return  the_resultEl.textContent="To'ldring katakdi"
+    }
     if(inputElValue%2==0){
         couple_sonEL.push(inputElValue)
         console.log(couple_sonEL)
