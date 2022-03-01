@@ -62,6 +62,8 @@
     font-weight: 700;
 }
 .ninety{
+    display: flex;
+    flex-direction:column;
     padding: 10px;
     color: rgb(0, 110, 255);
     font-size: 20px;
